@@ -1,0 +1,403 @@
+{
+  "": {
+    "dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/Spindle.d",
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/Spindle.o",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/primary.swiftdeps"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/App/AppDelegate.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AppDelegate.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AppDelegate.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AppDelegate.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/App/MenuBarController.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuBarController.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuBarController~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuBarController.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuBarController.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/App/main.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/main.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/main.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/main.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/AdapterLocator.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AdapterLocator.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AdapterLocator~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AdapterLocator.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AdapterLocator.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/AppleScriptController.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AppleScriptController.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AppleScriptController~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AppleScriptController.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AppleScriptController.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/Diagnostics.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/Diagnostics.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/Diagnostics~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/Diagnostics.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/Diagnostics.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/LaunchAtLogin.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LaunchAtLogin.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LaunchAtLogin~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LaunchAtLogin.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LaunchAtLogin.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/LibraryRouter.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LibraryRouter.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LibraryRouter~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LibraryRouter.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LibraryRouter.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/LoopbackRedirect.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LoopbackRedirect.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LoopbackRedirect~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LoopbackRedirect.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LoopbackRedirect.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/MediaRemoteAdapterService.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MediaRemoteAdapterService.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MediaRemoteAdapterService~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MediaRemoteAdapterService.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MediaRemoteAdapterService.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/MediaRemoteCommands.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MediaRemoteCommands.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MediaRemoteCommands~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MediaRemoteCommands.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MediaRemoteCommands.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/MediaService.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MediaService.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MediaService~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MediaService.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MediaService.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/MusicLibrary.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MusicLibrary.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MusicLibrary~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MusicLibrary.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MusicLibrary.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/NowPlaying.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/NowPlaying.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/NowPlaying~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/NowPlaying.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/NowPlaying.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/NowPlayingParser.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/NowPlayingParser.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/NowPlayingParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/NowPlayingParser.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/NowPlayingParser.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/PlaybackModeController.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackModeController.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackModeController~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackModeController.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackModeController.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/PlaybackModeReader.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackModeReader.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackModeReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackModeReader.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackModeReader.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/PlaybackModes.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackModes.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackModes~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackModes.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackModes.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/PlaybackQueue.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackQueue.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackQueue.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackQueue.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/QueueController.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/QueueController.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/QueueController~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/QueueController.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/QueueController.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/SourceAppLauncher.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SourceAppLauncher.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SourceAppLauncher~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SourceAppLauncher.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SourceAppLauncher.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/SpotifyAccount.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifyAccount.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifyAccount~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifyAccount.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifyAccount.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/SpotifyLibrary.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifyLibrary.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifyLibrary~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifyLibrary.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifyLibrary.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/SpotifyWebAPI.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifyWebAPI.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifyWebAPI~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifyWebAPI.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifyWebAPI.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/VolumeController.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/VolumeController.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/VolumeController~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/VolumeController.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/VolumeController.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Media/WheelClicker.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WheelClicker.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WheelClicker~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WheelClicker.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WheelClicker.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Theming/CustomSkin.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/CustomSkin.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/CustomSkin~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/CustomSkin.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/CustomSkin.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Theming/Theme.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/Theme.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/Theme~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/Theme.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/Theme.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Theming/ThemeCatalog.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ThemeCatalog.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ThemeCatalog~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ThemeCatalog.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ThemeCatalog.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/ViewModels/AppSettings.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AppSettings.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AppSettings~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AppSettings.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/AppSettings.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/ViewModels/MenuArtworkPreview.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuArtworkPreview.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuArtworkPreview~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuArtworkPreview.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuArtworkPreview.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/ViewModels/MenuRowCatalog.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuRowCatalog.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuRowCatalog~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuRowCatalog.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuRowCatalog.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/ViewModels/MenuScreenModel.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuScreenModel.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuScreenModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuScreenModel.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuScreenModel.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/ViewModels/MenuViewModel.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuViewModel.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuViewModel.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuViewModel.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/ViewModels/NowPlayingViewModel.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/NowPlayingViewModel.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/NowPlayingViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/NowPlayingViewModel.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/NowPlayingViewModel.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/ViewModels/SettingsMigration.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsMigration.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsMigration~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsMigration.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsMigration.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/ViewModels/SpindleViewModel.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpindleViewModel.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpindleViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpindleViewModel.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpindleViewModel.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/ClickWheelView.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ClickWheelView.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ClickWheelView~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ClickWheelView.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ClickWheelView.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/MarqueeText.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MarqueeText.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MarqueeText~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MarqueeText.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MarqueeText.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/MenuScreen.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuScreen.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuScreen~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuScreen.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/MenuScreen.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/PlaybackProgressView.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackProgressView.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackProgressView~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackProgressView.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlaybackProgressView.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/PlayingBars.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlayingBars.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlayingBars~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlayingBars.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/PlayingBars.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/ScreenFrame.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenFrame.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenFrame~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenFrame.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenFrame.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/ScreenStatusBar.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenStatusBar.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenStatusBar~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenStatusBar.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenStatusBar.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/ScreenView.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenView.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenView~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenView.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenView.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/Settings/BehaviourSection.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/BehaviourSection.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/BehaviourSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/BehaviourSection.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/BehaviourSection.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/Settings/ColorWheelPicker.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ColorWheelPicker.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ColorWheelPicker~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ColorWheelPicker.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ColorWheelPicker.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/Settings/CustomSkinSection.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/CustomSkinSection.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/CustomSkinSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/CustomSkinSection.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/CustomSkinSection.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/Settings/LayoutSection.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LayoutSection.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LayoutSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LayoutSection.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/LayoutSection.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/Settings/ScreenSection.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenSection.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenSection.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ScreenSection.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/Settings/SettingsControls.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsControls.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsControls~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsControls.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsControls.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/Settings/SettingsView.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsView.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/Settings/SkinPickerSection.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SkinPickerSection.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SkinPickerSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SkinPickerSection.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SkinPickerSection.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/Settings/SpotifySection.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifySection.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifySection~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifySection.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpotifySection.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/Settings/ThemeSwatch.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ThemeSwatch.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ThemeSwatch~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ThemeSwatch.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/ThemeSwatch.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/SpindleMetrics.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpindleMetrics.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpindleMetrics~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpindleMetrics.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpindleMetrics.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/SpindleView.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpindleView.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpindleView~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpindleView.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SpindleView.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/TimeFormatting.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/TimeFormatting.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/TimeFormatting~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/TimeFormatting.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/TimeFormatting.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/VolumeOverlay.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/VolumeOverlay.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/VolumeOverlay~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/VolumeOverlay.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/VolumeOverlay.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/VolumeSlider.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/VolumeSlider.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/VolumeSlider~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/VolumeSlider.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/VolumeSlider.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Views/WheelRotationGesture.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WheelRotationGesture.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WheelRotationGesture~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WheelRotationGesture.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WheelRotationGesture.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Window/FloatingPanel.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/FloatingPanel.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/FloatingPanel~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/FloatingPanel.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/FloatingPanel.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Window/GlassBackingView.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/GlassBackingView.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/GlassBackingView~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/GlassBackingView.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/GlassBackingView.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Window/SettingsWindowController.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsWindowController.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsWindowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsWindowController.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/SettingsWindowController.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Window/WidgetHostingView.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WidgetHostingView.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WidgetHostingView~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WidgetHostingView.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WidgetHostingView.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Sources/Spindle/Window/WidgetWindowController.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WidgetWindowController.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WidgetWindowController~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WidgetWindowController.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/Spindle.build/WidgetWindowController.dia"
+  }
+}

@@ -40,7 +40,7 @@ struct MenuScreen: View {
     private var list: some View {
         VStack(spacing: 0) {
             ScreenStatusBar(
-                title: model.level.title,
+                title: model.title,
                 isPlaying: false,
                 showsPlaybackGlyph: false,
                 shuffle: .off,

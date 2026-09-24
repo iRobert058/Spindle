@@ -7,6 +7,8 @@ import Testing
 final class StubLibrary: MusicLibraryProviding {
     var playlistsResult: Result<[LibraryPlaylist], MusicLibraryError>
     var tracksResult: Result<[LibraryTrack], MusicLibraryError>
+    var displayName = "Music"
+    var playsWholeLibrary = true
 
     private(set) var playedAll: [Int?] = []
     /// What a play request carried, recorded rather than performed.

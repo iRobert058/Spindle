@@ -64,8 +64,10 @@ permission at all. If macOS prompts, allow it, or set it manually:
 > System Settings → Privacy & Security → Automation → **Spindle** → enable
 > **Music** / **Spotify**
 
-The app does **not** need Screen Recording, Accessibility, Full Disk Access, or
-a network connection. It never talks to the internet.
+The app does **not** need Screen Recording, Accessibility or Full Disk Access.
+It only goes online if you connect Spotify (see below), and then only to
+Spotify's own servers, to read your playlists and Liked Songs. Without that it
+never talks to the internet.
 
 ---
 
@@ -105,6 +107,7 @@ up a level at a time:
 ```
 Spindle
  ├ Music ▸ Playlists / Artists / Albums / Songs ▸ … ▸ a track
+ │   (reads "Spotify" while Spotify is playing and connected)
  ├ Shuffle          Off · Songs · Albums
  ├ Repeat           Off · All · One
  ├ Settings
@@ -119,6 +122,34 @@ grouped on this side, and there is no real container for Music to queue from.
 Picking a single song plays that song out of your own playlist and keeps the rest
 of that playlist going behind it. Nothing is copied and nothing is added to your
 library.
+
+### Spotify
+
+The menu browses whichever player is in use. While Spotify is what's playing,
+the top row reads **Spotify** and lists your Spotify playlists, with **Songs**,
+**Artists** and **Albums** built from your Liked Songs. Anything else playing,
+or nothing at all, and it is Music as before. The choice is made when the menu
+opens, so it never changes under you mid-browse.
+
+Spotify's AppleScript can play a link but cannot list a single playlist, so
+browsing reads your library through the Spotify Web API. That needs a one-time
+setup, in **Settings → Spotify**:
+
+1. Create an app in the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
+   and tick **Web API**.
+2. Add the Redirect URI `http://127.0.0.1:43821/callback`, exactly as written.
+3. Paste the app's **Client ID** into Settings and click **Connect**. Approve
+   the login in your browser.
+
+The login uses PKCE, so there is no client secret anywhere, and it only asks
+for read access to your playlists and saved tracks. The refresh token is kept
+in your Keychain; **Disconnect** removes it.
+
+Playback still happens in the Spotify app, over AppleScript, so it needs no
+Premium account. Picking a song queues the rest of the list the same way it
+does for Music, and **Play Playlist** hands the whole playlist to Spotify.
+Liked Songs has no single link Spotify can be told to play, so its **Play
+All** runs through the widget's own queue.
 
 ### The menu bar icon
 
@@ -268,7 +299,13 @@ somewhere clear, or switch Placement to **Always on Top**. Every control is also
 in the menu bar icon.
 
 **The menu says "Allow Automation for Music".** Reading playlists needs it:
-System Settings → Privacy & Security → Automation → Spindle → Music.
+System Settings → Privacy & Security → Automation → Spindle → Music. The same
+goes for **Spotify** when picking a Spotify track does nothing.
+
+**The menu shows Music while Spotify is playing.** Spotify has not been
+connected, see [Spotify](#spotify). If Connect fails with *"Spotify refused the
+login"*, check that the Redirect URI in your Spotify app matches
+`http://127.0.0.1:43821/callback` character for character.
 
 ---
 

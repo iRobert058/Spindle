@@ -85,6 +85,9 @@ final class SpindleViewModel: ObservableObject {
         publisher
             .sink { [weak self] state in
                 guard let self else { return }
+                if let source = state.sourceBundleID {
+                    self.library.follow(sourceBundleID: source)
+                }
                 self.queue.update(state)
                 // Anything on the machine can move the system volume; this is
                 // the only regular tick the widget has to notice.
@@ -282,9 +285,11 @@ final class SpindleViewModel: ObservableObject {
             startTrack(index, in: .library)
         case .playPlaylistTrack(let playlistIndex, let trackIndex):
             startTrack(trackIndex, in: .playlist(index: playlistIndex))
+        case .playAll(nil) where !library.playsWholeLibrary:
+            playWholeLibraryThroughQueue()
         case .playAll(let playlistIndex):
-            // The container goes to Music whole, so Music owns the queue here
-            // and the widget has nothing to follow.
+            // The container goes to the player whole, so the player owns the
+            // queue here and the widget has nothing to follow.
             queue.relinquish()
             library.playAll(playlistIndex: playlistIndex) { [weak self] _ in
                 self?.showNowPlaying()
@@ -306,6 +311,18 @@ final class SpindleViewModel: ObservableObject {
             tracks: menu.containerTracks,
             completion: finish
         )
+    }
+
+    /// "Play All" on a library with nothing the player can be told to start
+    /// from the top — Spotify's Liked Songs. The widget queues the list itself,
+    /// from the first track, or from a random one with shuffle on.
+    private func playWholeLibraryThroughQueue() {
+        let tracks = menu.containerTracks
+        let first = shuffle.isOn ? tracks.randomElement() : tracks.first
+        guard let first else { return }
+        queue.play(trackIndex: first.index, from: .library, tracks: tracks) { [weak self] _ in
+            self?.showNowPlaying()
+        }
     }
 
     func stop() {

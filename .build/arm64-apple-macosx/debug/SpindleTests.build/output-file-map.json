@@ -1,0 +1,75 @@
+{
+  "": {
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/primary.swiftdeps"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Tests/SpindleTests/HexColorTests.swift": {
+    "dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/HexColorTests.d",
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/HexColorTests.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/HexColorTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/HexColorTests.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/HexColorTests.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Tests/SpindleTests/MenuArtworkTests.swift": {
+    "dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuArtworkTests.d",
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuArtworkTests.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuArtworkTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuArtworkTests.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuArtworkTests.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Tests/SpindleTests/MenuLibraryTests.swift": {
+    "dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuLibraryTests.d",
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuLibraryTests.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuLibraryTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuLibraryTests.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuLibraryTests.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Tests/SpindleTests/MenuNavigationTests.swift": {
+    "dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuNavigationTests.d",
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuNavigationTests.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuNavigationTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuNavigationTests.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/MenuNavigationTests.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Tests/SpindleTests/NowPlayingParserTests.swift": {
+    "dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/NowPlayingParserTests.d",
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/NowPlayingParserTests.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/NowPlayingParserTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/NowPlayingParserTests.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/NowPlayingParserTests.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Tests/SpindleTests/PlaybackQueueTests.swift": {
+    "dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/PlaybackQueueTests.d",
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/PlaybackQueueTests.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/PlaybackQueueTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/PlaybackQueueTests.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/PlaybackQueueTests.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Tests/SpindleTests/PlaybackTests.swift": {
+    "dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/PlaybackTests.d",
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/PlaybackTests.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/PlaybackTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/PlaybackTests.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/PlaybackTests.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Tests/SpindleTests/SpotifyTests.swift": {
+    "dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/SpotifyTests.d",
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/SpotifyTests.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/SpotifyTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/SpotifyTests.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/SpotifyTests.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Tests/SpindleTests/WheelRoutingTests.swift": {
+    "dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/WheelRoutingTests.d",
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/WheelRoutingTests.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/WheelRoutingTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/WheelRoutingTests.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/WheelRoutingTests.dia"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/Tests/SpindleTests/WidgetSnapshotTests.swift": {
+    "dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/WidgetSnapshotTests.d",
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/WidgetSnapshotTests.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/WidgetSnapshotTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/WidgetSnapshotTests.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/debug/SpindleTests.build/WidgetSnapshotTests.dia"
+  }
+}

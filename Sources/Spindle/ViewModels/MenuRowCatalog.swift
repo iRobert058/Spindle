@@ -6,9 +6,15 @@ import Foundation
 /// than about which words are on which screen.
 enum MenuRowCatalog {
 
-    static func main(shuffleLabel: String, repeatLabel: String) -> [MenuRow] {
+    /// `libraryName` is whichever player the menu is browsing — Music, or
+    /// Spotify while Spotify is the one playing.
+    static func main(
+        libraryName: String = "Music",
+        shuffleLabel: String,
+        repeatLabel: String
+    ) -> [MenuRow] {
         [
-            MenuRow(id: MenuRowID.music, title: "Music"),
+            MenuRow(id: MenuRowID.music, title: libraryName),
             MenuRow(id: MenuRowID.shuffle, title: "Shuffle", accessory: .value(shuffleLabel)),
             MenuRow(id: MenuRowID.repeatMode, title: "Repeat", accessory: .value(repeatLabel)),
             MenuRow(id: MenuRowID.settings, title: "Settings", accessory: .none),

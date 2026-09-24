@@ -7,7 +7,18 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private let settings = AppSettings()
     private lazy var service: MediaService = MediaRemoteAdapterService()
     private lazy var viewModel = NowPlayingViewModel(service: service)
-    private lazy var device = SpindleViewModel(settings: settings)
+    private let spotify = SpotifyAccount()
+    /// The menu browses whichever of Music and Spotify is playing.
+    private lazy var library: MusicLibraryProviding = {
+        let spotify = self.spotify
+        let isConnected = { MainActor.assumeIsolated { spotify.isConnected } }
+        return LibraryRouter(
+            music: MusicLibrary(),
+            spotify: SpotifyLibrary(api: SpotifyWebAPI(account: spotify), isConnected: isConnected),
+            isSpotifyReady: isConnected
+        )
+    }()
+    private lazy var device = SpindleViewModel(settings: settings, library: library)
 
     private var widgetController: WidgetWindowController?
     private var settingsController: SettingsWindowController?
@@ -19,6 +30,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
         let settingsController = SettingsWindowController(
             settings: settings,
+            spotify: spotify,
             backendDescription: viewModel.backendDescription
         )
         self.settingsController = settingsController

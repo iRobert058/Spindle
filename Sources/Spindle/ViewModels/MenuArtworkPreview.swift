@@ -72,6 +72,13 @@ final class MenuArtworkPreview {
         currentKey = nil
     }
 
+    /// The library behind the menu may have changed, and positions with it.
+    func clearCache() {
+        cancel()
+        cache = [:]
+        order = []
+    }
+
     private func store(_ image: NSImage?, for key: String) {
         if cache[key] == nil { order.append(key) }
         cache[key] = image

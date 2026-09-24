@@ -25,6 +25,8 @@ struct LibraryPlaylist: Equatable, Identifiable {
 enum MusicLibraryError: LocalizedError, Equatable {
     case notAuthorised
     case musicUnavailable
+    case spotifyNotConnected
+    case spotifyNotAuthorised
     case failed(String)
 
     var errorDescription: String? {
@@ -33,6 +35,10 @@ enum MusicLibraryError: LocalizedError, Equatable {
             return "Allow Spindle to control Music in System Settings → Privacy & Security → Automation."
         case .musicUnavailable:
             return "The Music app is not available."
+        case .spotifyNotConnected:
+            return "Connect Spotify in Spindle's Settings to browse it."
+        case .spotifyNotAuthorised:
+            return "Allow Spindle to control Spotify in System Settings → Privacy & Security → Automation."
         case .failed(let detail):
             return detail
         }
@@ -43,6 +49,8 @@ enum MusicLibraryError: LocalizedError, Equatable {
         switch self {
         case .notAuthorised: return "Allow Automation for Music in System Settings"
         case .musicUnavailable: return "Music is unavailable"
+        case .spotifyNotConnected: return "Connect Spotify in Settings"
+        case .spotifyNotAuthorised: return "Allow Automation for Spotify in System Settings"
         case .failed(let detail): return detail
         }
     }
@@ -52,6 +60,17 @@ enum MusicLibraryError: LocalizedError, Equatable {
 /// row-building logic can be tested without Music.app and without playing
 /// anything on the machine running the tests.
 protocol MusicLibraryProviding: AnyObject {
+    /// What the main menu calls this library.
+    var displayName: String { get }
+    /// False when the library has no single container to hand the player for
+    /// "Play All", so the widget has to queue the tracks itself.
+    var playsWholeLibrary: Bool { get }
+    /// The app that owns the audio right now, whenever the adapter reports one.
+    func follow(sourceBundleID: String)
+    /// The menu is opening. Anything that picks between libraries does it
+    /// here, and keeps that choice until the menu opens again, so the indices
+    /// a level was built from never change under it.
+    func beginBrowsing()
     func playlists(completion: @escaping (Result<[LibraryPlaylist], MusicLibraryError>) -> Void)
     func tracks(
         playlistIndex: Int?,
@@ -70,6 +89,13 @@ protocol MusicLibraryProviding: AnyObject {
     /// Cover art for one track, or nil when it has none. Nil playlist means the
     /// whole library, as everywhere else here.
     func artwork(playlistIndex: Int?, trackIndex: Int, completion: @escaping (Data?) -> Void)
+}
+
+extension MusicLibraryProviding {
+    var displayName: String { "Music" }
+    var playsWholeLibrary: Bool { true }
+    func follow(sourceBundleID: String) {}
+    func beginBrowsing() {}
 }
 
 /// Reads playlists and tracks out of Music.app, and starts playback.

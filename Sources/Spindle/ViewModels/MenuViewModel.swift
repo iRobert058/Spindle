@@ -33,6 +33,12 @@ final class MenuViewModel: ObservableObject {
     var repeatLabel = RepeatMode.off.label
 
     var level: MenuLevel { stack.last ?? .main }
+
+    /// The status bar title. The library level is named after the library it
+    /// is browsing, so it reads Spotify while Spotify is the one playing.
+    var title: String {
+        level == .music ? library.displayName : level.title
+    }
     var canGoBack: Bool { stack.count > 1 }
 
     /// Every track of the container this level came out of, in the container's
@@ -57,12 +63,16 @@ final class MenuViewModel: ObservableObject {
     ) {
         self.library = library
         self.preview = MenuArtworkPreview(library: library, settleDelay: artworkSettleDelay)
+        library.beginBrowsing()
         rebuildStaticRows()
     }
 
     // MARK: - Navigation
 
     func reset() {
+        library.beginBrowsing()
+        // Covers are cached by position, which means nothing in the other library.
+        preview.clearCache()
         stack = [.main]
         selectionStack = []
         selection = 0
@@ -146,7 +156,11 @@ final class MenuViewModel: ObservableObject {
     private func rebuildStaticRows() {
         switch level {
         case .main:
-            rows = MenuRowCatalog.main(shuffleLabel: shuffleLabel, repeatLabel: repeatLabel)
+            rows = MenuRowCatalog.main(
+                libraryName: library.displayName,
+                shuffleLabel: shuffleLabel,
+                repeatLabel: repeatLabel
+            )
         case .music:
             rows = MenuRowCatalog.music
         default:

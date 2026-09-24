@@ -1,0 +1,3 @@
+module SpindlePackageTests {
+    header "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/SpindlePackageTests.build/include/SpindlePackageTests-Swift.h"
+}

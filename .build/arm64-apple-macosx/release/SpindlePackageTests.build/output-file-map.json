@@ -1,0 +1,13 @@
+{
+  "": {
+    "dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/SpindlePackageTests.build/SpindlePackageTests.d",
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/SpindlePackageTests.build/SpindlePackageTests.o",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/SpindlePackageTests.build/primary.swiftdeps"
+  },
+  "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/SpindlePackageTests.derived/runner.swift": {
+    "object": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/SpindlePackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/SpindlePackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/SpindlePackageTests.build/runner.swiftdeps",
+    "diagnostics": "/Users/robertkarzijn/Documents/GitHub/Spindle/.build/arm64-apple-macosx/release/SpindlePackageTests.build/runner.dia"
+  }
+}
