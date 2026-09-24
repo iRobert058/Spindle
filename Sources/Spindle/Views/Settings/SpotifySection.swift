@@ -45,13 +45,15 @@ struct SpotifySection: View {
                     .font(.caption.monospaced())
                     .textSelection(.enabled)
                 Spacer()
-                Button("Copy") {
+                Button {
                     NSPasteboard.general.clearContents()
                     NSPasteboard.general.setString(SpotifyAccount.redirectURI, forType: .string)
+                } label: {
+                    Image(systemName: "doc.on.doc")
                 }
-                .controlSize(.small)
+                .buttonStyle(.borderless)
+                .help("Copy")
             }
-            .padding(.leading, 16)
             step("3.", Text("Paste its Client ID and connect:"))
             HStack {
                 TextField("Client ID", text: $account.clientID)
@@ -62,7 +64,6 @@ struct SpotifySection: View {
             }
             .padding(.leading, 16)
             status
-        }
     }
 
     @ViewBuilder

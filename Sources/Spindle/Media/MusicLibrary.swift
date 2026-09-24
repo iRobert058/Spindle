@@ -37,7 +37,6 @@ enum MusicLibraryError: LocalizedError, Equatable {
             return "The Music app is not available."
         case .spotifyNotConnected:
             return "Connect Spotify in Spindle's Settings to browse it."
-        case .spotifyNotAuthorised:
             return "Allow Spindle to control Spotify in System Settings → Privacy & Security → Automation."
         case .failed(let detail):
             return detail
@@ -89,6 +88,13 @@ protocol MusicLibraryProviding: AnyObject {
     /// Cover art for one track, or nil when it has none. Nil playlist means the
     /// whole library, as everywhere else here.
     func artwork(playlistIndex: Int?, trackIndex: Int, completion: @escaping (Data?) -> Void)
+    /// The library a queue should keep playing from. Itself, except for a
+    /// router, which answers with whichever library it is pointing at now.
+    var playbackTarget: MusicLibraryProviding { get }
+}
+
+extension MusicLibraryProviding {
+    var playbackTarget: MusicLibraryProviding { self }
 }
 
 extension MusicLibraryProviding {

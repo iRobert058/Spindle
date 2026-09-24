@@ -57,7 +57,8 @@ and a dial icon appears in the menu bar.
 ## Permissions
 
 **Automation, for the menu, and as a fallback.** Browsing Playlists, Artists,
-Albums or Songs reads them out of Music.app, which needs this. Playback control,
+Albums or Songs reads them out of Music.app, and playing a Spotify pick goes
+through Spotify's own scripting, both of which need this. Playback control,
 shuffle and repeat all go through the system media controls, which need no
 permission at all. If macOS prompts, allow it, or set it manually:
 
@@ -66,8 +67,8 @@ permission at all. If macOS prompts, allow it, or set it manually:
 
 The app does **not** need Screen Recording, Accessibility or Full Disk Access.
 It only goes online if you connect Spotify (see below), and then only to
-Spotify's own servers, to read your playlists and Liked Songs. Without that it
-never talks to the internet.
+Spotify's own API, to read your playlists, Liked Songs and their covers.
+Without that it never talks to the internet.
 
 ---
 
@@ -80,7 +81,7 @@ never talks to the internet.
 | **MENU (top)** | Opens the menu | Back up one level |
 | **Right of wheel** | Next track | Next track |
 | **Left of wheel** | Previous track | Previous track |
-| **Bottom of wheel** | Opens whatever is playing | Opens whatever is playing |
+| **Bottom of wheel** | Opens Apple Music, Spotify or whatever is playing — your pick | Same |
 | **Click the screen** | Opens the menu | Selects that row |
 | **Drag the scrubber** | Jumps to that point | — |
 
@@ -306,6 +307,13 @@ goes for **Spotify** when picking a Spotify track does nothing.
 connected, see [Spotify](#spotify). If Connect fails with *"Spotify refused the
 login"*, check that the Redirect URI in your Spotify app matches
 `http://127.0.0.1:43821/callback` character for character.
+
+**The menu says "Connect Spotify in Settings".** The toggle points at Spotify but
+no account is connected, or Spotify revoked the sign-in. Settings → Spotify →
+**Connect Spotify**.
+
+**A Spotify playlist is missing from the menu.** It is one you follow rather than
+own. Spotify only returns the contents of playlists you own or collaborate on.
 
 ---
 
